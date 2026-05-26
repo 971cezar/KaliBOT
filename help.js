@@ -4,7 +4,7 @@ const config = require('../../config.json');
 module.exports = {
     data: new SlashCommandBuilder()
     .setName("help")
-    .setDescription("Bot komutlarını listeler."),
+    .setDescription("Kali Bot komutlarını listeler."),
     async execute(interaction) {
 
         const help = new EmbedBuilder()
